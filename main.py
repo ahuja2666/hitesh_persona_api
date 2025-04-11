@@ -57,7 +57,7 @@ app = FastAPI(lifespan=lifespan)
 # Add CORS middleware here
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  
+    allow_origins=["https://hitesh-persona.vercel.app"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
